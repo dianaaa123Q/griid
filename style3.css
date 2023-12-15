@@ -1,0 +1,50 @@
+.container{ 
+    background-color: rgb(185, 67, 192);
+    padding: 20px 30px 70px 30px;
+    text-align: center;
+    display: grid;
+    gap: 3%;  
+}
+
+div[class^="b"] {
+    background-color: rgb(148, 148, 148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.b1{
+    padding-left: 10%;
+    font-weight: bold;
+}
+.b2{
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 3%;
+}
+
+div[class^="block"]{
+    width: 80%;
+    height: 90px;
+}
+
+.con{
+    padding-top: 30px;
+    display: grid;  
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    gap: 3%;
+}
+
+.box1, .box2, .box3{
+    height: 90px;
+}
